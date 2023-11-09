@@ -1,0 +1,76 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "devcamp_2687351",
+    "dateExported": "2023-10-26T16:40:42.969Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "cbef9b3d-192d-4e82-b90f-1decc33f1473",
+            "name": "bootcamps",
+            "containerId": "",
+            "created": "2023-10-26T15:33:34.189Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "b5d5580f-1926-4360-b2e3-a9c4d9e00c5b",
+            "name": "curses",
+            "containerId": "",
+            "created": "2023-10-26T15:46:08.422Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "0f906f3e-2d64-467f-8fed-b6ce1500b43e",
+            "colId": "6e8b79ad-3714-4a04-a1c1-d8c9f066a20b",
+            "containerId": "cbef9b3d-192d-4e82-b90f-1decc33f1473",
+            "name": "TRAER TODOS LOS BOOTCAMPS",
+            "url": "http://127.0.0.1:8888/api/v1/devcamp/bootcamps",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-10-26T15:33:54.613Z",
+            "modified": "2023-10-26T15:35:44.693Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9b2ebdde-6595-42d1-88c6-8929ddfb26a0",
+            "colId": "6e8b79ad-3714-4a04-a1c1-d8c9f066a20b",
+            "containerId": "b5d5580f-1926-4360-b2e3-a9c4d9e00c5b",
+            "name": "TRAER TODOS LOS CURSES",
+            "url": "http://127.0.0.1:8888/api/v1/devcamp/curses",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-10-26T15:46:39.054Z",
+            "modified": "2023-10-26T15:48:59.343Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "ef65e92d-6130-4d63-8c15-8ec8b3fab4c3",
+            "colId": "6e8b79ad-3714-4a04-a1c1-d8c9f066a20b",
+            "containerId": "cbef9b3d-192d-4e82-b90f-1decc33f1473",
+            "name": "CREAR BOOTCAMPS",
+            "url": "http://127.0.0.1:8888/api/v1/devcamp/bootcamps",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-10-26T16:30:02.270Z",
+            "modified": "2023-10-26T16:39:25.234Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"Javascript Bootcamp\",\n  \"phone\": 3225555555, \n  \"address\" :\"SENA calle 52\",\n  \" topcis\":[\"Frontend/UX\",\"Backend\"],\n  \"createdAt\": \"2023-10-26\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
